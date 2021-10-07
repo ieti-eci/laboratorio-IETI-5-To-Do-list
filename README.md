@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Authors
+Laboratory implemented by:
+- James Alexander Duck Torres
+- Miguel Angel Rodriguez 
+
 ## Available Scripts
 
 In the project directory, you can run:
