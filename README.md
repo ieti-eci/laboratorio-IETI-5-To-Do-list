@@ -3,8 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Authors
+Date 7/10/2021
 Laboratory implemented by:
-- James Alexander Duck Torres
+- Duck James Alexander Torres
 - Miguel Angel Rodriguez 
 
 ## Available Scripts
