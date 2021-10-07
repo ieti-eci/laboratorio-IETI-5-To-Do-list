@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Authors
 Laboratory implemented by:
-- James Alexander Duck Torres
+- Duck James Alexander Torres
 - Miguel Angel Rodriguez 
 
 ## Available Scripts
