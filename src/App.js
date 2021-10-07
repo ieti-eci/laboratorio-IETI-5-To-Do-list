@@ -39,10 +39,24 @@ function App() {
 
     };
 
-  return ( <main>
-              <form>
-                  <input type="text" placeholder="Task name"/>
-                  <button>Create Task</button>
+    const newTask=(name) =>{
+        const newTask = {
+            isCompleted:false,
+            name:name,
+        };
+        setTasks([...tasks, newTask]);
+    };
+
+    const [textValue, setTextValue] = useState("");
+
+    return ( <main>
+              <form onSubmit={handleSubmit} >
+                      <input
+                          value={textValue}
+                          onChange= {handleTextChange}
+                          type="text"
+                          placeholder="Task Name"/>
+                      <button>Create Task</button>
               </form>
               <ul>
                   {tasks.map((task, index) => {
