@@ -26,6 +26,19 @@ function App() {
         arr[index].isCompleted = !arr[index].isCompleted
         setTasks(arr);
     }
+
+    const handleSubmit=(event)=>{
+        event.preventDefault();
+        console.log(textValue);
+        newTask(textValue);
+    };
+
+    const handleTextChange = (event) => {
+        const value = event.target.value;
+        setTextValue(value);
+
+    };
+
   return ( <main>
               <form>
                   <input type="text" placeholder="Task name"/>
